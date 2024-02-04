@@ -48,3 +48,10 @@ class Manager(Employee, ManagerInterface, BonusCalculatorInterface):
 
     def manage_team(self):
         print(f"{self.name} is managing the team.")
+
+class Developer(Employee, DeveloperInterface, BonusCalculatorInterface):
+    def calculate_bonus(self):
+        return 500
+
+    def code_review(self):
+        print(f"{self.name} is conducting a code review.")
