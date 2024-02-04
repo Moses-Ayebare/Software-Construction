@@ -75,3 +75,7 @@ if __name__ == "__main__":
 
     #BonusCalculator instance
     bonus_calculator = BonusCalculatorInterface()
+
+    # Manager and Developer Bonuses
+    manager_bonus = bonus_calculator.calculate_bonus(manager)
+    developer_bonus = bonus_calculator.calculate_bonus(developer)
