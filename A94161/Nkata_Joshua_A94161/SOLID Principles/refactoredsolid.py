@@ -83,3 +83,6 @@ if __name__ == "__main__":
     # Printing Manager and Developer Bonuses
     print(f"Manager Bonus: ${manager_bonus}")
     print(f"Developer Bonus: ${developer_bonus}")
+
+    # Manager managing the team
+    manager.manage_team()
