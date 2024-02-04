@@ -18,3 +18,12 @@ class ReportContext:
 
     def generate_report(self, employee):
         self.report_writer.write_report(employee)
+
+#3: Liskov Substitution Principle (LSP)
+class Employee:
+    def __init__(self, name, role):
+        self.name = name
+        self.role = role
+
+    def calculate_bonus(self):
+        pass
