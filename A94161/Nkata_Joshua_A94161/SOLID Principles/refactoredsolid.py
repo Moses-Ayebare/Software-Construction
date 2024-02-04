@@ -79,3 +79,7 @@ if __name__ == "__main__":
     # Manager and Developer Bonuses
     manager_bonus = bonus_calculator.calculate_bonus(manager)
     developer_bonus = bonus_calculator.calculate_bonus(developer)
+
+    # Printing Manager and Developer Bonuses
+    print(f"Manager Bonus: ${manager_bonus}")
+    print(f"Developer Bonus: ${developer_bonus}")
