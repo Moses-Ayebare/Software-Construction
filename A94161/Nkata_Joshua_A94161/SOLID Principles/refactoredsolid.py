@@ -63,3 +63,6 @@ if __name__ == "__main__":
 
     # Creating ReportContext with ManagerReportWriter
     manager_report_context = ReportContext(ManagerReportWriter())
+
+    #  Manager Report
+    manager_report_context.generate_report(manager)
