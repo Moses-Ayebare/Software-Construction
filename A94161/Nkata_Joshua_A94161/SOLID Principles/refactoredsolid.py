@@ -86,3 +86,6 @@ if __name__ == "__main__":
 
     # Manager managing the team
     manager.manage_team()
+
+    #Developer conducting a code review
+    developer.code_review()
