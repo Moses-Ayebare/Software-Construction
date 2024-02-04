@@ -55,3 +55,8 @@ class Developer(Employee, DeveloperInterface, BonusCalculatorInterface):
 
     def code_review(self):
         print(f"{self.name} is conducting a code review.")
+
+if __name__ == "__main__":
+    # Creating Manager and Developer instances
+    manager = Manager("Alice", "Manager")
+    developer = Developer("Bob", "Developer")
