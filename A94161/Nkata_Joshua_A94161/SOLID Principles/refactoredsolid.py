@@ -60,3 +60,6 @@ if __name__ == "__main__":
     # Creating Manager and Developer instances
     manager = Manager("Alice", "Manager")
     developer = Developer("Bob", "Developer")
+
+    # Creating ReportContext with ManagerReportWriter
+    manager_report_context = ReportContext(ManagerReportWriter())
