@@ -36,3 +36,8 @@ class ManagerInterface:
 class DeveloperInterface:
     def code_review(self):
         pass
+
+#5: Dependency Inversion Principle (DIP)
+class BonusCalculatorInterface:
+    def calculate_bonus(self, employee):
+        pass
