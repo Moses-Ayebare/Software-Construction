@@ -27,3 +27,12 @@ class Employee:
 
     def calculate_bonus(self):
         pass
+
+#4: Interface Segregation Principle (ISP)
+class ManagerInterface:
+    def manage_team(self):
+        pass
+
+class DeveloperInterface:
+    def code_review(self):
+        pass
