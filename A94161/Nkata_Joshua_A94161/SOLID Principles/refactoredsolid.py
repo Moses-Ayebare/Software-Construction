@@ -72,3 +72,6 @@ if __name__ == "__main__":
 
     #  Developer Report
     developer_report_context.generate_report(developer)
+
+    #BonusCalculator instance
+    bonus_calculator = BonusCalculatorInterface()
