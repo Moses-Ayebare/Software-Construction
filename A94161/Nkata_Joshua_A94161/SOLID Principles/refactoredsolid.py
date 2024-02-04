@@ -69,3 +69,6 @@ if __name__ == "__main__":
 
     # ReportContext with DeveloperReportWriter
     developer_report_context = ReportContext(DeveloperReportWriter())
+
+    #  Developer Report
+    developer_report_context.generate_report(developer)
