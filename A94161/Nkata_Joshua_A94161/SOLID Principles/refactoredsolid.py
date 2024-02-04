@@ -57,12 +57,15 @@ class Developer(Employee, DeveloperInterface, BonusCalculatorInterface):
         print(f"{self.name} is conducting a code review.")
 
 if __name__ == "__main__":
-    # Creating Manager and Developer instances
+    #Manager and Developer instances
     manager = Manager("Alice", "Manager")
     developer = Developer("Bob", "Developer")
 
-    # Creating ReportContext with ManagerReportWriter
+    #ReportContext with ManagerReportWriter
     manager_report_context = ReportContext(ManagerReportWriter())
 
     #  Manager Report
     manager_report_context.generate_report(manager)
+
+    # ReportContext with DeveloperReportWriter
+    developer_report_context = ReportContext(DeveloperReportWriter())
