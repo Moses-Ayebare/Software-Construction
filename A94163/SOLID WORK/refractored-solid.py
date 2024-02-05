@@ -54,3 +54,8 @@ class DeveloperRole(ABC):
 class Manager(Employee, ManagerialRole):
     def lead_team(self):
         print(f"{self.name} is guiding the team with authority.")
+
+# Implementation of a Developer with specific code review actions
+class Developer(Employee, DeveloperRole):
+    def conduct_code_review(self):
+        print(f"{self.name} is orchestrating a comprehensive code review.")
