@@ -43,3 +43,9 @@ class ManagerialRole(ABC):
     @abstractmethod
     def lead_team(self):
         pass
+
+# Abstract class defining the developer responsibilities
+class DeveloperRole(ABC):
+    @abstractmethod
+    def conduct_code_review(self):
+        pass
