@@ -70,3 +70,7 @@ if __name__ == "__main__":
     developer_report_writer = DeveloperReportWriter()
     manager_bonus_calculator = ManagerBonusCalculator()
     developer_bonus_calculator = DeveloperBonusCalculator()
+
+    # Generating unique reports for Manager and Developer
+    manager_report_writer.craft_report(manager)
+    developer_report_writer.craft_report(developer)
