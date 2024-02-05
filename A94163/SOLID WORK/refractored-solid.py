@@ -17,3 +17,8 @@ class BonusCalculator(ABC):
     @abstractmethod
     def calculate_incentive(self, employee):
         pass
+
+# Report craft made for Managers
+class ManagerReportWriter(ReportWriter):
+    def craft_report(self, manager):
+        print(f"Manager's Report: {manager.name}")
