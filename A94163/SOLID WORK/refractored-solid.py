@@ -22,3 +22,10 @@ class BonusCalculator(ABC):
 class ManagerReportWriter(ReportWriter):
     def craft_report(self, manager):
         print(f"Manager's Report: {manager.name}")
+
+# Report craft made for Developers
+class DeveloperReportWriter(ReportWriter):
+    def craft_report(self, developer):
+        print(f"Developer's Report: {developer.name}")
+
+
