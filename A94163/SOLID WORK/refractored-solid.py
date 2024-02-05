@@ -28,4 +28,7 @@ class DeveloperReportWriter(ReportWriter):
     def craft_report(self, developer):
         print(f"Developer's Report: {developer.name}")
 
-
+# Bonus calculation incentive for Managers
+class ManagerBonusCalculator(BonusCalculator):
+    def calculate_incentive(self, manager):
+        return 1000
