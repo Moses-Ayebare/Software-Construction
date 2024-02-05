@@ -32,3 +32,8 @@ class DeveloperReportWriter(ReportWriter):
 class ManagerBonusCalculator(BonusCalculator):
     def calculate_incentive(self, manager):
         return 1000
+
+# Bonus calculation incentive for Developers
+class DeveloperBonusCalculator(BonusCalculator):
+    def calculate_incentive(self, developer):
+        return 500
