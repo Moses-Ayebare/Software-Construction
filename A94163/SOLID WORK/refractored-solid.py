@@ -11,3 +11,9 @@ class ReportWriter(ABC):
     @abstractmethod
     def craft_report(self, employee):
         pass
+
+# Abstract base class defining the protocol for bonus calculation
+class BonusCalculator(ABC):
+    @abstractmethod
+    def calculate_incentive(self, employee):
+        pass
