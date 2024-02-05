@@ -82,3 +82,7 @@ if __name__ == "__main__":
     # Displaying the calculated bonuses
     print(f"Manager's Bonus: ${manager_bonus}")
     print(f"Developer's Bonus: ${developer_bonus}")
+
+    # Executing role-specific actions
+    manager.lead_team()
+    developer.conduct_code_review()
