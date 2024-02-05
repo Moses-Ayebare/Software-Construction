@@ -37,3 +37,9 @@ class ManagerBonusCalculator(BonusCalculator):
 class DeveloperBonusCalculator(BonusCalculator):
     def calculate_incentive(self, developer):
         return 500
+    
+# Abstract class defining the responsibilities
+class ManagerialRole(ABC):
+    @abstractmethod
+    def lead_team(self):
+        pass
