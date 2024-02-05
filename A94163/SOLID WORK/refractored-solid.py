@@ -74,3 +74,7 @@ if __name__ == "__main__":
     # Generating unique reports for Manager and Developer
     manager_report_writer.craft_report(manager)
     developer_report_writer.craft_report(developer)
+
+    # Calculating distinctive bonuses for Manager and Developer
+    manager_bonus = manager_bonus_calculator.calculate_incentive(manager)
+    developer_bonus = developer_bonus_calculator.calculate_incentive(developer)
