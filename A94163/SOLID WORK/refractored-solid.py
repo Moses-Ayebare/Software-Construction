@@ -59,3 +59,9 @@ class Manager(Employee, ManagerialRole):
 class Developer(Employee, DeveloperRole):
     def conduct_code_review(self):
         print(f"{self.name} is orchestrating a comprehensive code review.")
+
+if __name__ == "__main__":
+    # Creating instances of Manager and Developer
+    manager = Manager("Alice", "Manager")
+    developer = Developer("Bob", "Developer")
+
