@@ -49,3 +49,8 @@ class DeveloperRole(ABC):
     @abstractmethod
     def conduct_code_review(self):
         pass
+
+# Implementation of a Manager with specific leadership actions
+class Manager(Employee, ManagerialRole):
+    def lead_team(self):
+        print(f"{self.name} is guiding the team with authority.")
