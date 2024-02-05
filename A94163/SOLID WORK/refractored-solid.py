@@ -78,3 +78,7 @@ if __name__ == "__main__":
     # Calculating distinctive bonuses for Manager and Developer
     manager_bonus = manager_bonus_calculator.calculate_incentive(manager)
     developer_bonus = developer_bonus_calculator.calculate_incentive(developer)
+
+    # Displaying the calculated bonuses
+    print(f"Manager's Bonus: ${manager_bonus}")
+    print(f"Developer's Bonus: ${developer_bonus}")
