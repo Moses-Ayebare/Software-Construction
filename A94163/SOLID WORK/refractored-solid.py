@@ -65,3 +65,8 @@ if __name__ == "__main__":
     manager = Manager("Alice", "Manager")
     developer = Developer("Bob", "Developer")
 
+    # Creating instances of report writers and bonus calculators for each role
+    manager_report_writer = ManagerReportWriter()
+    developer_report_writer = DeveloperReportWriter()
+    manager_bonus_calculator = ManagerBonusCalculator()
+    developer_bonus_calculator = DeveloperBonusCalculator()
