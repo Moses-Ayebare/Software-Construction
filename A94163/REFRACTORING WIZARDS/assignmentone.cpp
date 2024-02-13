@@ -27,6 +27,11 @@ int main() {
 /** 1. Consistent Naming Conventions:
 Ensure that naming conventions are consistent. For instance, consider using camelCase for member variables and functions, 
 and capitalize the first letter of class names.**/
+
+
+/** 2.Descriptive Variable Names:**
+Use descriptive names for variables and parameters to enhance code readability. 
+For example, replace `amount` with `initialBalance` in the constructor.**/
   
    
    class BankAccount {
@@ -41,4 +46,4 @@ and capitalize the first letter of class names.**/
        double balance;
    };
 
-   
+
