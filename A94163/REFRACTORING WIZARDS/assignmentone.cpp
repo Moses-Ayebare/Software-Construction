@@ -21,7 +21,7 @@ int main() {
     account.withdraw(200);
     cout << "Current balance: " << account.getBalance() << endl;
     return 0;
-    
+
 
 // Proper code following the proper principles
 /** 1. Consistent Naming Conventions:
@@ -40,3 +40,5 @@ and capitalize the first letter of class names.**/
    private:
        double balance;
    };
+
+   
