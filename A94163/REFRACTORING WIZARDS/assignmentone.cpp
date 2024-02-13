@@ -46,4 +46,15 @@ For example, replace `amount` with `initialBalance` in the constructor.**/
        double balance;
    };
 
+   /**3.Code Formatting:
+Maintain consistent and clear code formatting for better readability. Consider using indentation consistently, and surround binary operators with spaces.**/
+
+   int main() {
+       BankAccount account(1000);
+       account.deposit(500);
+       account.withdraw(200);
+       cout << "Current balance: " << account.getBalance() << endl;
+       return 0;
+   }
+
 
