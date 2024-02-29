@@ -1,0 +1,42 @@
+Red Phase: Writing Unit Tests (calculator_test.py)
+
+In the Red Phase, our goal was to write comprehensive unit tests for the Calculator class without 
+implementing the actual class. We covered various functionalities, including addition, subtraction, 
+multiplication, division, square root, power, factorial, logarithm, and trigonometric functions
+(sin, cos, tan).
+
+Challenges Faced:
+
+1.Ensuring comprehensive test coverage for all Calculator functions.
+2.Handling edge cases such as division by zero, square root of negative numbers, 
+factorial of negative numbers, logarithm with base 1, and logarithm/negative inputs.
+
+Green Phase: Implementing the Calculator Class (calculator.py)
+
+In the Green Phase, the focus was on implementing the Calculator class to fulfill the requirements 
+specified in the test cases. We wrote methods for addition, subtraction, multiplication, division, 
+square root, power, factorial, logarithm, and trigonometric functions. The implemented methods were 
+designed to pass all the unit tests from the Red Phase.
+
+Challenges Faced:
+
+1.Ensuring accuracy in implementing mathematical operations.
+2.Handling exceptions and edge cases as identified in the test cases.
+
+Refactor Phase: Improving Code Quality (calculator_refactored.py)
+
+In the Refactor Phase, we reviewed the code and identified areas for improvement in terms of readability,
+optimization, and adherence to best practices. The main goal was to enhance the code while ensuring that
+all test cases continued to pass.
+
+Refactoring Decisions:
+
+1.Added meaningful docstrings to each method for better documentation.
+2.Improved exception messages for clearer error handling.
+3.Simplified conditional checks for readability.
+4.Maintained adherence to PEP 8 style guidelines.
+
+Challenges Faced:
+
+1.Balancing code readability with optimization.
+2.Ensuring that the refactored code did not introduce new issues or break existing functionality.
