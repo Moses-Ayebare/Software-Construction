@@ -3,7 +3,7 @@ from calculator import Calculator
 import math
 
 class TestCalculator(unittest.TestCase):
-    def setUp(self):
+    def setUp(self): 
         # Create an instance of the Calculator class before each test
         self.calc = Calculator()
 
